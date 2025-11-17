@@ -1,0 +1,7 @@
+name = "github-weekly-readme-stamp"
+main = "src/index.js"
+compatibility_date = "2025-11-18"
+
+[triggers]
+# 每周日 00:00 UTC 触发（可按需要调整）
+crons = ["0 0 * * 0"]
